@@ -1,0 +1,177 @@
+.h-menu li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h-menu li a {
+    padding: 9px 4px 9px 22px;
+    margin-right: 18px;
+    position: relative;
+    background: url(../img/ie_btn_grey.png) left top no-repeat;
+}
+
+.h-menu li a:before {
+    content: "";
+    width: 18px;
+    height: 41px;
+    position: absolute;
+    top: 0px;
+    right: -18px;
+    background: url(../img/ie_btn_grey.png) right bottom no-repeat;
+}
+
+body .h-menu .link-index, .h-menu .link-index:hover {
+    background: url(../img/ie_btn_link_index.png) center no-repeat !important;
+    border: none;
+}
+
+.h-menu a:hover:before {
+    content: "";
+    width: 18px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: -18px;
+    background: url(../img/ie_btn_orange.png) right bottom no-repeat !important;
+}
+
+.h-menu .link-index:before {
+    display: none;
+}
+
+.h-menu a:hover {
+    background: url(../img/ie_btn_orange.png) left top no-repeat !important;
+}
+
+.h-contacts p {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.h-zamer a {
+    font-family: "Open Sans Condensed Bold", sans-serif;
+    font-size: 26px;
+}
+
+.s-menu ul {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.s-menu li a:before {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 15px;
+    left: 19px;
+    background: url(../img/sprite.png) -54px -60px no-repeat;
+    border: none;
+    border-radius: 0;
+}
+
+.content-text ul li:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    background: url(../img/sprite.png) -70px -60px no-repeat;
+    border: none;
+    border-radius: 0;
+}
+
+.content-text h1 {
+    margin-bottom: 31px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.content-text h1 em {
+    display: block;
+    margin-top: -15px;
+    font-style: normal;
+    font-size: 30px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.content-text .bottom-slogan .s-border {
+    display: inline-block;
+    padding: 11px 20px;
+    border: 2px solid #ffb48f;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -khtml-border-radius: 28px;
+    border-radius: 28px;
+    behavior: url(./js/PIE.htc);
+    position: relative;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 24px;
+    color: #4e4e4e;
+}
+
+
+
+.btn-orange {
+    border: 1px solid #efb05f;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    background: #F5CC6D;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F5CC6D), to(#d85e22));
+    background: -webkit-linear-gradient(#F5CC6D, #d85e22);
+    background: -moz-linear-gradient(#F5CC6D, #d85e22);
+    background: -ms-linear-gradient(#F5CC6D, #d85e22);
+    background: -o-linear-gradient(#F5CC6D, #d85e22);
+    background: linear-gradient(#F5CC6D, #d85e22);
+    -pie-background: linear-gradient(#F5CC6D, #d85e22);
+}
+
+.f-menu {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 16px;
+    color: #22211c;
+    text-transform: uppercase;
+}
+
+.f-contacts .p-phone {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 35px;
+}
+
+.f-contacts .p-address {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.s-news .title-b {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/opensans-condlight-webfont.eot');
+    src: url('../fonts/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-condlight-webfont.woff') format('woff'),
+    url('../fonts/opensans-condlight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed Bold';
+    src: url('../fonts/opensans-condbold-webfont.eot');
+    src: url('../fonts/opensans-condbold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-condbold-webfont.woff') format('woff'),
+    url('../fonts/opensans-condbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
